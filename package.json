@@ -1,0 +1,14 @@
+{
+  "name": "crud-sencilla",
+  "version": "1.0.0",
+  "description": "frog's lodge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crudjs, html, javascript, css"
+  ],
+  "author": "Mark_Band1",
+  "license": "MIT"
+}

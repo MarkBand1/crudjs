@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit form">
+    <meta name="keywords" content="HTML, CSS, JavaScript, CRUD">
+    <meta name="author" content="Mark_Band1">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario CRUD</title>
+    <link rel="icon" type="image/x-icon" href="./assets/frog.jpeg">
+    
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        <h1>Frog's Lodge</h1>
+        <p>Formulario de inscripción</p>
+    </div>
+    <form id="crudForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Juan" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Hernández" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="(55)-xxxx-xxxx" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="juan.hernandez@email.com" required>
+
+        <label for="mensaje">Área de Texto:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="¡Por favor! escribe tu petición" required></textarea>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los términos y condiciones legales sobre los criterios del manejo de privacidad de datos</label>
+        </div>
+        <button type="submit" id="envio">Enviar</button>
+    </form>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
